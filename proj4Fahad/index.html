@@ -1,0 +1,177 @@
+<!-- Muhammad Fahad  HTML comment
+    Project 4
+    Due Date: Nov 7
+    Submission Date: Nov 7 -->
+    <!DOCTYPE html>
+
+    <!-- Fun Quiz -->
+    
+    <html lang="en">
+  <head>
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      textarea {
+        overflow-y: scroll;
+
+        resize: none;
+
+        height: 100px;
+
+        width: 200px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="questions">
+      <label for="file"> Upload JSON Input File: </label><br />
+
+      <input type="file" id="file" /><br /><br />
+
+      <h1>Trivia Quiz</h1>
+
+      <p>Click on a question to show its hint.</p>
+
+      <ol>
+        <li>
+          <span id="r1"> Which country has the most natural lakes?</span><br />
+
+          <span id="a1"> Hint: Maple Syrup</span>
+
+          <ol type="a">
+            <li>
+              <input type="radio" id="11" name="q1" value="Canada" />
+
+              Canada
+            </li>
+
+            <li>
+              <input type="radio" id="12" name="q1" value="United States" />
+
+              United States
+            </li>
+
+            <li>
+              <input type="radio" id="13" name="q1" value="India" />
+
+              India
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <span id="r2"> What is the Earth's largest continent?</span><br />
+
+          <span id="a2"> Hint: Middle East </span>
+
+          <ol type="a">
+            <li>
+              <input type="radio" id="21" name="q2" value="Antartica" />
+
+              Antartica
+            </li>
+
+            <li>
+              <input type="radio" id="22" name="q2" value="Asia" />
+
+              Asia
+            </li>
+
+            <li>
+              <input type="radio" id="23" name="q2" value="Australia" />
+
+              Australia
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <span id="r3"> What is the worlds largest Island? </span><br />
+
+          <span id="a3"> Hint: Not so Green </span>
+
+          <ol type="a">
+            <li>
+              <input type="radio" id="31" name="q3" value="Madagascar" />
+
+              Madagascar
+            </li>
+
+            <li>
+              <input type="radio" id="32" name="q3" value="Greenland" />
+
+              Greenland
+            </li>
+
+            <li>
+              <input type="radio" id="33" name="q3" value="Maui" />
+
+              Maui
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <span id="r4"> What is the flattest continent?</span><br />
+
+          <span id="a4"> Hint: Kangaroos</span>
+
+          <ol type="a">
+            <li>
+              <input type="radio" id="41" name="q4" value="Asia" />
+
+              Asia
+            </li>
+
+            <li>
+              <input type="radio" id="42" name="q4" value="Europe" />
+
+              Europe
+            </li>
+
+            <li>
+              <input type="radio" id="43" name="q4" value="Australia" />
+
+              Australia
+            </li>
+          </ol>
+        </li>
+
+        <li>
+          <span id="r5"> What is the tallest mountain in the world?</span><br />
+
+          <span id="a5">Hint: Nepal</span>
+
+          <ol type="a">
+            <li>
+              <input type="radio" id="51" name="q5" value="Everest" />
+
+              Everest
+            </li>
+
+            <li>
+              <input type="radio" id="52" name="q5" value="Kilamanjaro" />
+
+              Kilamanjaro
+            </li>
+
+            <li>
+              <input type="radio" id="53" name="q5" value="Rocky" />
+
+              Rocky Mountains
+            </li>
+          </ol>
+        </li>
+      </ol>
+
+      <button id="btn1">Submit Quiz</button><br />
+    </div>
+    <div id="output">
+      <p id="numcorrect"></p>
+    </div>
+    <p><a href="../index.html">Back to Index</a></p>
+  </body>
+</html>

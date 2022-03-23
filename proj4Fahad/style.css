@@ -1,0 +1,32 @@
+/* Muhammad Fahad   CSS comment
+   Project 4
+   Due Date: Nov 7
+   Submission Date: Nov 7
+
+/* Styles for Quiz */
+body {
+      background-color: #e0e0ff;
+      color: #000080;
+      font-family: Tahoma, Verdana, sans-serif;
+    }
+    h1 {
+      color: #c50000;
+    }
+    #a1,
+    #a2,
+    #a3,
+    #a4,
+    #a5 {
+      display: none;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    #output {
+      display: none;
+    }
+    
+    img {
+      height: 50px;
+      width: 50px;
+    }
